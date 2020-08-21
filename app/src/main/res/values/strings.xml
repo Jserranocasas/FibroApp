@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">FibroApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_yoga">Ejercicios de yoga</string>
+    <string name="menu_assistant">Asistente</string>
+    <string name="menu_medicine">Medicamentos</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="name_profile">Nombre</string>
+    <string name="email_profile">Correo</string>
+    <string name="photo_profile">Foto</string>
+    <string name="btn_choose_profile">Cambiar foto</string>
+    <string name="btn_save_profile">Guardar</string>
+
+    <string name="name_singup">Nombre</string>
+    <string name="login_status_fmt">Email</string>
+    <string name="password_title_text">Contraseña</string>
+    <string name="confirm_password_title_text">Confirma Contraseña</string>
+    <string name="change_to_sign_up">¿No tienes cuenta? Regístrate aquí</string>
+    <string name="change_to_sign_in">"¿Tienes cuenta? Iniciar sesión aquí"</string>
+    <string name="forget_password">¿Has olvidado la contraseña?</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="twitter_login_button">Iniciar Sesión con Twitter</string>
+    <string name="facebook_login_button">Iniciar Sesión con Facebook</string>
+    <string name="google_login_button">Iniciar Sesión con Google</string>
+    <string name="sign_up">Registrarte</string>
+    <string name="sign_in">Iniciar Sesión</string>
+
+    <string name="enter_name">Por favor, introudzca un nombre</string>
+    <string name="enter_email">Por favor, introduzca un email</string>
+    <string name="enter_valid_email">Por favor, introduzca un email válido</string>
+    <string name="enter_pwd">Por favor, introduzca la contraseña</string>
+    <string name="confirm_pwd">Por favor, confirma contraseña</string>
+    <string name="please_login">Por favor, inicie sesión</string>
+    <string name="error_confirm_email">La contraseña no coincide</string>
+    <string name="sign_up_failed">Registro fracasado</string>
+    <string name="exist_error">¡Se produjo un error!</string>
+    <string name="pwd_length_error">La contraseña debe tener al menos 8 carateres</string>
+    <string name="empty_fields">¡Campos vacios!</string>
+    <string name="connected">Estas conectado</string>
+    <string name="again_login">Error inicio de sesion. Pruebe otra vez</string>
+
+    <string name="enter_name_valid">Por favor, introduzcs un nombre válido</string>
+    <string name="saving_data">Guardando datos</string>
+    <string name="data_saved">Datos guardados correctamente</string>
+
+    <string name="auth_fail">Autentificación fallida.</string>
+
+    <string name="label_medicine">Medicamento</string>
+    <string name="label_date">Fecha de inicio</string>
+    <string name="label_time">Hora de inicio</string>
+    <string name="label_frequency">Frecuencia</string>
+    <string name="label_repetition">Repeticion</string>
+    <string name="label_indefinitely">Indefinidamente</string>
+    <string name="label_limited">Limitada</string>
+    <string name="label_date_finish">Fecha de finalización</string>
+    <string name="btn_save_medicine">Guardar</string>
+    <string name="btn_add_medicine">Añadir</string>
+    <string name="btn_remove_medicine">Eliminar</string>
+    <string name="hint_edit_medicine">Nombre del medicamento</string>
+    <string name="hint_edit_date">DD/MM/YYYY</string>
+    <string name="hint_edit_time">HH:MM</string>
+    <string name="hint_edit_frequency">Horas</string>
+    <string name="name_error">El nombre no puede estar vacio</string>
+    <string name="date_error">Fecha no válida</string>
+    <string name="time_error">Hora no válida</string>
+    <string name="future_error">La fecha y hora deben ser posteriores</string>
+    <string name="frequency_error">Frecuencia no válida</string>
+    <string name="finish_date_error">La fecha de finalización debe ser posterior</string>
+
+    <string name="tittle_dialog">Eliminar medicamento</string>
+    <string name="message_dialog">¿Estas seguro de que quieres eliminarlo?</string>
+    <string name="positive_button">Si</string>
+    <string name="negative_button">No</string>
+
+    <string name="name_channel_notification">Notificaciones FibroApp</string>
+    <string name="description_channel_notification">Este es el canal de notificaiones de FibroApp</string>
+    <string name="tittle_notification">Toma de medicamentos</string>
+    <string name="message_notification">Debe tomarse el medicamento:</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verifica Email</string>
+    <string name="disconnect">ado</string>
+    <string name="loading">Cargando…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Autenticación fallida</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="twitter_consumer_key"></string>
+    <string name="twitter_consumer_secret"></string>
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme"></string>
+
+    <string name="phone_title_text">Phone Number</string>
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+    <string name="generic_title_text">OAuth Sign In</string>
+    <string name="generic_signin_fmt">Sign In with %s</string>
+    <string name="generic_status_fmt">User: %s (%s)</string>
+    <string name="generic_label_provider">Provider:</string>
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="custom_auth_signin_status_user">User ID: %s</string>
+    <string name="custom_auth_signin_status_failed">Error: sign in failed</string>
+    <string name="error_sign_in_failed">Sign in failed, see logs for details.</string>
+</resources>

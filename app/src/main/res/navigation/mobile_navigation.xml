@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_medicine">
+
+    <fragment
+        android:id="@+id/nav_yoga"
+        android:name="com.example.fibroapp.ui.exercises.ExercisesFragment"
+        android:label="@string/menu_yoga"
+        tools:layout="@layout/fragment_recycler" />
+
+    <fragment
+        android:id="@+id/nav_assistant"
+        android:name="com.example.fibroapp.ui.assistant.AssistantFragment"
+        android:label="@string/menu_assistant"
+        tools:layout="@layout/item_assistant" />
+
+    <fragment
+        android:id="@+id/nav_medicine"
+        android:name="com.example.fibroapp.ui.medicine.MedicinesFragment"
+        android:label="@string/menu_medicine"
+        tools:layout="@layout/fragment_recycler" />
+
+    <fragment
+        android:id="@+id/nav_medicine_edit"
+        android:name="com.example.fibroapp.ui.medicine.MedicinesEditFragment"
+        android:label="@string/menu_medicine"
+        tools:layout="@layout/fragment_medicine" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.fibroapp.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.fibroapp.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

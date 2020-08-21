@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color> -->
+
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFA000</color>
+
+    <color name="login_button">#273464</color>
+    <color name="white_button">#EFF2FF</color>
+    <color name="blue_button">#3E84E9</color>
+
+    <color name="facebook_button">#1168E6</color>
+    <color name="twitter_button">#1DA1F3</color>
+    <color name="google_button">#EA695C</color>
+
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_800">#6F6F6F</color>
+
+    <color name="background_login_primary">#FFDA91</color>
+    <color name="background_login_secundary">#E6F59A</color>
+</resources>

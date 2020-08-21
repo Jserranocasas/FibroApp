@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="135"
+        android:endColor="@color/background_login_primary"
+        android:startColor="@color/background_login_secundary"
+        android:type="linear" />
+</shape>
