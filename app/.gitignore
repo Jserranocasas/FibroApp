@@ -84,3 +84,6 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
+
+# OS
+.DS_Store
